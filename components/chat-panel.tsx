@@ -7,8 +7,9 @@ import { IconShare } from '@/components/ui/icons'
 import { FooterText } from '@/components/footer'
 import { useAIState, useActions, useUIState } from 'ai/rsc'
 import type { AI } from '@/lib/chat/actions'
-import { nanoid } from 'nanoid'
 import { UserMessage } from './stocks/message'
+
+const { nanoid } = require('nanoid')
 
 export interface ChatPanelProps {
   id?: string
